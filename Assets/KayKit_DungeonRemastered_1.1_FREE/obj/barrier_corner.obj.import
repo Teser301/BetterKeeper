@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bjim538mmel5m"
+path="res://.godot/imported/barrier_corner.obj-21e6f6dd8011020ccc22e06c74860e2b.mesh"
+
+[deps]
+
+files=["res://.godot/imported/barrier_corner.obj-21e6f6dd8011020ccc22e06c74860e2b.mesh"]
+
+source_file="res://Assets/KayKit_DungeonRemastered_1.1_FREE/obj/barrier_corner.obj"
+dest_files=["res://.godot/imported/barrier_corner.obj-21e6f6dd8011020ccc22e06c74860e2b.mesh", "res://.godot/imported/barrier_corner.obj-21e6f6dd8011020ccc22e06c74860e2b.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

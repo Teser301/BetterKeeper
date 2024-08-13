@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://clve16850bikd"
+path="res://.godot/imported/table_medium_tablecloth_decorated_B.obj-8239b5cb166f1ac62ab6ba082c43f321.mesh"
+
+[deps]
+
+files=["res://.godot/imported/table_medium_tablecloth_decorated_B.obj-8239b5cb166f1ac62ab6ba082c43f321.mesh"]
+
+source_file="res://Assets/KayKit_DungeonRemastered_1.1_FREE/obj/table_medium_tablecloth_decorated_B.obj"
+dest_files=["res://.godot/imported/table_medium_tablecloth_decorated_B.obj-8239b5cb166f1ac62ab6ba082c43f321.mesh", "res://.godot/imported/table_medium_tablecloth_decorated_B.obj-8239b5cb166f1ac62ab6ba082c43f321.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

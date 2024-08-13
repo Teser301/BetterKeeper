@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://dc4rt3776tfwf"]
+
+[ext_resource type="Script" path="res://MinionManager.gd" id="1_2nevl"]
+
+[node name="MinionManager" type="Node3D"]
+script = ExtResource("1_2nevl")

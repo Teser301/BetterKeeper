@@ -1,0 +1,36 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://croqjdfygq6vd"
+path.s3tc="res://.godot/imported/crates_stacked-9ccc64a69d12fe4b9d5254a2be6b29f8_dungeon_texture.png-f1bc2c7f423bfba638112536292628ae.s3tc.ctex"
+metadata={
+"imported_formats": ["s3tc_bptc"],
+"vram_texture": true
+}
+generator_parameters={}
+
+[deps]
+
+source_file="res://Assets/KayKit_DungeonRemastered_1.1_FREE/fbx(unity)/crates_stacked-9ccc64a69d12fe4b9d5254a2be6b29f8_dungeon_texture.png"
+dest_files=["res://.godot/imported/crates_stacked-9ccc64a69d12fe4b9d5254a2be6b29f8_dungeon_texture.png-f1bc2c7f423bfba638112536292628ae.s3tc.ctex"]
+
+[params]
+
+compress/mode=2
+compress/high_quality=false
+compress/lossy_quality=0.7
+compress/hdr_compression=1
+compress/normal_map=0
+compress/channel_pack=0
+mipmaps/generate=true
+mipmaps/limit=-1
+roughness/mode=0
+roughness/src_normal=""
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/normal_map_invert_y=false
+process/hdr_as_srgb=false
+process/hdr_clamp_exposure=false
+process/size_limit=0
+detect_3d/compress_to=0

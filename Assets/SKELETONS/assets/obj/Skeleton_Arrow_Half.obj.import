@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dggxl7ka3xeim"
+path="res://.godot/imported/Skeleton_Arrow_Half.obj-6193f57af11e1601d40a3610f3aeb326.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Skeleton_Arrow_Half.obj-6193f57af11e1601d40a3610f3aeb326.mesh"]
+
+source_file="res://Assets/SKELETONS/assets/obj/Skeleton_Arrow_Half.obj"
+dest_files=["res://.godot/imported/Skeleton_Arrow_Half.obj-6193f57af11e1601d40a3610f3aeb326.mesh", "res://.godot/imported/Skeleton_Arrow_Half.obj-6193f57af11e1601d40a3610f3aeb326.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
