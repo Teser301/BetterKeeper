@@ -17,13 +17,16 @@ func _physics_process(delta):
 	direction = direction.normalized()
 	
 	minion.velocity = minion.velocity.lerp(direction * speed, accel * delta)
-	if !raycast.is_colliding():
+	
+	if !navAgent.is_navigation_finished():
 		minion.move_and_slide()
+		var turn_to = navAgent.get_next_path_position()
+		minion.look_at(turn_to, Vector3.UP, true)
 	
 
 func _on_timer_timeout():
-	var x = randi_range(4,-4)
-	var z = randi_range(4,-4)
+	var x = randi_range(4,-4) + minion.global_position.x
+	var z = randi_range(4,-4) + minion.global_position.z
 	var destination = Vector3(x, 0, z)
 	
 	navAgent.target_position = Vector3(x, 0, z)

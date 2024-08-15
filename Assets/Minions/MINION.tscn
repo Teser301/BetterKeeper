@@ -1,0 +1,27 @@
+[gd_scene load_steps=5 format=3 uid="uid://bk8mf57aq0gfw"]
+
+[ext_resource type="Script" path="res://Assets/Minions/MINION.gd" id="1_stewx"]
+[ext_resource type="PackedScene" uid="uid://tjdi7rc55eih" path="res://Assets/SKELETONS/characters/gltf/Skeleton_Rogue.glb" id="2_3u56v"]
+[ext_resource type="Script" path="res://Assets/Minions/AI.gd" id="3_7eyap"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_af3hs"]
+
+[node name="Minion" type="CharacterBody3D"]
+script = ExtResource("1_stewx")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)
+shape = SubResource("CapsuleShape3D_af3hs")
+
+[node name="Skeleton_Minion" parent="." instance=ExtResource("2_3u56v")]
+
+[node name="AI" type="Node3D" parent="."]
+script = ExtResource("3_7eyap")
+
+[node name="NavigationAgent3D" type="NavigationAgent3D" parent="."]
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 2.0
+autostart = true
+
+[connection signal="timeout" from="Timer" to="AI" method="_on_timer_timeout"]

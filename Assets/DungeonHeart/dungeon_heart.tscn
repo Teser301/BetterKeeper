@@ -1,6 +1,6 @@
 [gd_scene load_steps=3 format=3 uid="uid://ca5yv3vixy36b"]
 
-[ext_resource type="Script" path="res://Assets/dungeon_heart.gd" id="1_05la6"]
+[ext_resource type="Script" path="res://Assets/DungeonHeart/dungeon_heart.gd" id="1_05la6"]
 [ext_resource type="PackedScene" uid="uid://b2gb4wke0tk2t" path="res://Assets/KayKit_DungeonRemastered_1.1_FREE/gltf/bed_frame.gltf" id="1_qia5v"]
 
 [node name="dungeon heart" type="Node3D"]
