@@ -83,6 +83,7 @@ shadow_mesh = SubResource("ArrayMesh_seo85")
 [node name="Tiles" type="Node3D"]
 
 [node name="floor_dirt_small_B" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 1)
 
 [node name="floor_dirt_small_B2" type="MeshInstance3D" parent="floor_dirt_small_B"]
 mesh = SubResource("ArrayMesh_xjm8s")
@@ -94,5 +95,6 @@ skeleton = NodePath("")
 shape = SubResource("ConcavePolygonShape3D_0u3ef")
 
 [node name="floor_foundation_allsides2" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 1)
 mesh = SubResource("ArrayMesh_uj4g2")
 skeleton = NodePath("")

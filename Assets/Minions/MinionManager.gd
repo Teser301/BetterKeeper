@@ -14,10 +14,10 @@ func _ready():
 func _process(delta):
 	pass
 
-func addMinion():
+func addMinion(pos):
 	if minions.size() >= minion_cap:
 		return
 	var minionSpawn = minionPrefab.instantiate()
 	add_child(minionSpawn)
-	minionSpawn.position.z = 1
+	minionSpawn.position = pos
 	minions.append(minionSpawn)
