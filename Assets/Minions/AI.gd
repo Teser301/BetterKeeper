@@ -4,11 +4,12 @@ extends Node3D
 @onready var navAgent = $"../NavigationAgent3D"
 @onready var timer = $"../Timer"
 @onready var minion: CharacterBody3D = $".."
+@onready var health_bar = $"../Health Bar"
 var speed = 2
 var accel = 10
 
 func _physics_process(delta):
-	
+	health_bar.take_damage(1.0)
 	var direction = Vector3()
 	
 	if !navAgent.target_position:
