@@ -2,7 +2,7 @@ extends Node3D
 class_name MinionManager
 
 @export var minions: Array[Node3D] = []
-@onready var minionPrefab = preload("res://Assets/Minions/MINION.tscn")
+@onready var minionPrefab = preload("res://Assets/Minions/Skeleton_Minion.tscn")
 
 var minion_cap = 10
 # Called when the node enters the scene tree for the first time.
