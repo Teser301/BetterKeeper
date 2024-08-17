@@ -27,8 +27,6 @@ func _ready():
 	
 	chunk = Vector2(chunk_x, chunk_z)
 	
-	print("Chunk: ", chunk)
-	
 	await get_tree().process_frame
 
 	navMesh.bake_navigation_mesh()
@@ -79,4 +77,3 @@ func _shoot_ray():
 
 func _process(delta):
 	pass
-
